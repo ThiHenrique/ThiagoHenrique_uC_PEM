@@ -1,0 +1,106 @@
+|Registrador_de_Instrucoes
+BarS[0] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+BarS[1] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+BarS[2] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+BarS[3] <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+BarS[4] <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+BarS[5] <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+BarS[6] <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+BarS[7] <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+BarE[0] => FlipFlop_D_CLR:inst.D
+BarE[1] => FlipFlop_D_CLR:inst1.D
+BarE[2] => FlipFlop_D_CLR:inst2.D
+BarE[3] => FlipFlop_D_CLR:inst3.D
+BarE[4] => FlipFlop_D_CLR:inst4.D
+BarE[5] => FlipFlop_D_CLR:inst5.D
+BarE[6] => FlipFlop_D_CLR:inst6.D
+BarE[7] => FlipFlop_D_CLR:inst7.D
+oLin => inst9.IN0
+CLK => inst8.IN1
+CLR => FlipFlop_D_CLR:inst4.CLR
+CLR => FlipFlop_D_CLR:inst5.CLR
+CLR => FlipFlop_D_CLR:inst6.CLR
+CLR => FlipFlop_D_CLR:inst7.CLR
+CLR => FlipFlop_D_CLR:inst.CLR
+CLR => FlipFlop_D_CLR:inst1.CLR
+CLR => FlipFlop_D_CLR:inst2.CLR
+CLR => FlipFlop_D_CLR:inst3.CLR
+oEin => inst14.IN0
+SC[0] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+SC[1] <= C[1].DB_MAX_OUTPUT_PORT_TYPE
+SC[2] <= C[2].DB_MAX_OUTPUT_PORT_TYPE
+SC[3] <= C[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst4
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst5
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst6
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst7
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst1
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst2
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
+|Registrador_de_Instrucoes|FlipFlop_D_CLR:inst3
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst7.IN0
+CLK => inst6.IN1
+D => inst.IN0
+D => inst6.IN0
+CLR => inst8.IN2
+
+
