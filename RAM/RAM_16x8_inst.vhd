@@ -1,0 +1,7 @@
+RAM_16x8_inst : RAM_16x8 PORT MAP (
+		address	 => address_sig,
+		clock	 => clock_sig,
+		data	 => data_sig,
+		wren	 => wren_sig,
+		q	 => q_sig
+	);
