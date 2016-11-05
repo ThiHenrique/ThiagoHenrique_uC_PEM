@@ -1,0 +1,90 @@
+|Controlador_Sequencializador
+_LM <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+EC[0] => inst53.IN0
+EC[0] => inst43.IN0
+EC[1] => inst44.IN2
+EC[1] => inst54.IN0
+EC[1] => inst45.IN2
+EC[2] => inst55.IN0
+EC[2] => inst45.IN3
+EC[3] => inst56.IN0
+EC[3] => inst45.IN1
+CLK => FlipFlop_JK_oR:inst1.oCLK
+CLK => FlipFlop_JK_oR:inst.oCLK
+CLK => FlipFlop_JK_oR:inst5.oCLK
+CLK => FlipFlop_JK_oR:inst4.oCLK
+CLK => FlipFlop_JK_oR:inst3.oCLK
+CLK => FlipFlop_JK_oR:inst2.oCLK
+_CLR => FlipFlop_JK_oR:inst1.oR
+_CLR => FlipFlop_JK_oR:inst.oR
+_CLR => FlipFlop_JK_oR:inst5.oR
+_CLR => FlipFlop_JK_oR:inst4.oR
+_CLR => FlipFlop_JK_oR:inst3.oR
+_CLR => FlipFlop_JK_oR:inst2.oR
+_CE <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+_EI <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+_LA <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+EA <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+SU <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+EU <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+_LB <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+_LO <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+CP <= T2.DB_MAX_OUTPUT_PORT_TYPE
+EP <= T1.DB_MAX_OUTPUT_PORT_TYPE
+_LI <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador_Sequencializador|FlipFlop_JK_oR:inst2
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+oCLK => inst9.IN0
+K => inst1.IN1
+J => inst.IN1
+oR => inst10.IN0
+Qo <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador_Sequencializador|FlipFlop_JK_oR:inst3
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+oCLK => inst9.IN0
+K => inst1.IN1
+J => inst.IN1
+oR => inst10.IN0
+Qo <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador_Sequencializador|FlipFlop_JK_oR:inst4
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+oCLK => inst9.IN0
+K => inst1.IN1
+J => inst.IN1
+oR => inst10.IN0
+Qo <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador_Sequencializador|FlipFlop_JK_oR:inst5
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+oCLK => inst9.IN0
+K => inst1.IN1
+J => inst.IN1
+oR => inst10.IN0
+Qo <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador_Sequencializador|FlipFlop_JK_oR:inst
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+oCLK => inst9.IN0
+K => inst1.IN1
+J => inst.IN1
+oR => inst10.IN0
+Qo <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador_Sequencializador|FlipFlop_JK_oR:inst1
+Q <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+oCLK => inst9.IN0
+K => inst1.IN1
+J => inst.IN1
+oR => inst10.IN0
+Qo <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
